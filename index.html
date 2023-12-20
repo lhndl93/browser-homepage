@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono"
+      rel="stylesheet"
+    />
+    <script src="js/index.js"></script>
+  </head>
+
+  <body>
+    <div class="grid">
+      <div id="search">
+        <div class="text">
+          <p class="google">search... google is your friend</p>
+        </div>
+        <input
+          id="search-field"
+          type="text"
+          name="search-field"
+          onkeypress="return search(event)"
+        />
+      </div>
+      <div class="container">
+        <div class="group">
+          <div class="favourite-title">daily</div>
+          <div class="inner">
+            <a href="https://www.facebook.com/" target="_blank">facebook</a>
+            <a href="https://www.indeed.co.uk/" target="_blank">indeed</a>
+            <a href="https://medium.com/" target="_blank">medium</a>
+          </div>
+        </div>
+        <div class="group">
+          <div class="favourite-title">media</div>
+          <div class="inner">
+            <a href="https://www.youtube.co.uk/" target="_blank">youtube</a>
+            <a href="https://ukerse.com/" target="_blank">ukerse</a>
+            <a href="https://www.netflix.com/gb/" target="_blank">netflix</a>
+          </div>
+        </div>
+        <div class="group">
+          <div class="favourite-title">studying</div>
+          <div class="inner">
+            <a
+              href="https://www.udemy.com/home/my-courses/learning/"
+              target="_blank"
+              >udemy</a
+            >
+            <a href="https://freecodecamp.org/" target="_blank">freecodecamp</a>
+            <a href="https://courses.edx.org/dashboard" target="_blank">edx</a>
+          </div>
+        </div>
+        <div class="group">
+          <div class="favourite-title">school</div>
+          <div class="inner">
+            <a href="https://msds.open.ac.uk/students/" target="_blank"
+              >student portal</a
+            >
+            <a
+              href="https://mail.google.com/a/my.open.ac.uk/#inbox"
+              target="_blank"
+              >student email</a
+            >
+            <a href="https://www.open.ac.uk/library/" target="_blank"
+              >library</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
